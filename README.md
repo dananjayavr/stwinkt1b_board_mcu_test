@@ -18,6 +18,8 @@
 
 - Create a task for accelerometer, gyroscope, etc. 
 
+- High-level abstraction layer for sensor tasks, with simulated sensor values for unit testing / CICD.
+
 - SD card and write env data periodically to a CSV file. Associate a timestamp using RTC for these measurements. 
 
 - Push button to start or stop data saving to SD card. 
@@ -30,3 +32,4 @@
 - Wifi Support
 - Microphone / Ultrasound Support 
 - STSAFE Support
+
