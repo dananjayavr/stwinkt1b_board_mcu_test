@@ -9,6 +9,8 @@
 
 - Implement a basic state machine architecture, for easy porting to a RTOS later on.
 
+- Figure out a way to interface 2 more I2C sensors : BME688 + SGP30 (through available female connectors)
+
 - Figure out USB CDC (used in BSP) to send data to a computer, rather than using VCOM/USART over the debugger.
 
 - Figure out how battery charging code through BSP works. Also, getting the PWR button to turn off the device would be neat.
@@ -28,6 +30,7 @@
 
 ---
 
+- Firmware update support
 - Bluetooth Support
 - Wifi Support
 - Microphone / Ultrasound Support 
