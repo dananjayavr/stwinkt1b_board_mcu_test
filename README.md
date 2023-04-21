@@ -20,7 +20,7 @@
 
 - High-level abstraction layer for sensor tasks, with simulated sensor values for unit testing / CICD.
 
-- SD card and write env data periodically to a CSV file. Associate a timestamp using RTC for these measurements. 
+- SD card and write env data periodically to a CSV file. Associate a timestamp using RTC for these measurements => check BSP functions that do this (+ example SD_DataLogger app in repository). 
 
 - Push button to start or stop data saving to SD card. 
 
@@ -33,3 +33,6 @@
 - Microphone / Ultrasound Support 
 - STSAFE Support
 
+---
+
+- Optimizations: driver-level optimizations, interruptions, DMA support, etc.
