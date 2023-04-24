@@ -28,6 +28,8 @@
 
 - Integrate RTOS.
 
+- Add UART console to interact with firmware
+
 ---
 
 - Firmware update support
